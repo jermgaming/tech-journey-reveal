@@ -21,16 +21,16 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Profile Image */}
-          <div className="mb-8">
+          {/* <div className="mb-8">
             <img 
-              src="/lovable-uploads/0d84f8c4-c33e-41a9-adb8-eff6801cb1f5.png" 
-              alt="Afinder Pal Singh"
-              className="w-48 h-48 rounded-full mx-auto border-4 border-primary/20 shadow-2xl object-cover"
+              src="/lovable-uploads/Atinder-photograph.png" 
+              alt="Atinder Pal Singh"
+              className="w-40 h-40 rounded-full mx-auto border-4 border-primary/20 shadow-2xl object-cover"
             />
-          </div>
+          </div> */}
 
           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 dark:from-white dark:via-blue-200 dark:to-purple-200 bg-clip-text text-transparent leading-tight">
-            Afinder Pal Singh
+            Atinder Pal Singh
           </h1>
           
           <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-primary">
