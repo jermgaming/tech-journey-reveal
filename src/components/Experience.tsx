@@ -6,20 +6,20 @@ const Experience = () => {
   const experiences = [
     {
       company: "Marvell Semiconductor",
-      position: "Software Engineer",
-      duration: "2023 - Present",
-      period: "1 Year",
-      description: "Working on innovative semiconductor solutions and embedded systems. Contributing to cutting-edge technology development in the semiconductor industry.",
-      technologies: ["C++", "Python", "Embedded Systems", "Hardware Integration"],
+      position: "Software/Firmware Intern",
+      duration: "July 2024 - Current",
+      period: "6+ Months",
+      description: "Part of the firmware development team (PTP) under Automotive BU. Proficient in ASPICE concepts with hands-on experience at Level -2, ensuring understanding and implementation of automotive standards.",
+      technologies: ["C", "Embedded C", "C++", "ASPICE", "Firmware Development", "Automotive"],
       color: "from-purple-500 to-purple-600"
     },
     {
       company: "Tata Consultancy Services (TCS)",
-      position: "Software Developer",
-      duration: "2021 - 2023",
+      position: "Systems Engineer",
+      duration: "Aug 2021 - Jul 2023",
       period: "2 Years",
-      description: "Developed and maintained enterprise-level applications. Worked with cross-functional teams to deliver high-quality software solutions for global clients.",
-      technologies: ["Java", "React", "Spring Boot", "MySQL", "AWS"],
+      description: "Part of the Global Risk and Compliance team. Role involved performing compliance assessments (SOX compliance and Critical Application audit) of Sherwin-Williams infrastructure (operating systems and databases) supporting business-critical applications.",
+      technologies: ["SOX Compliance", "Risk Assessment", "Database Management", "Infrastructure Audit", "Business Applications"],
       color: "from-blue-500 to-blue-600"
     }
   ];
@@ -33,7 +33,7 @@ const Experience = () => {
               Professional Experience
             </h2>
             <p className="text-xl text-muted-foreground">
-              3 years of hands-on experience in software development
+              3+ years of hands-on experience in software development and compliance
             </p>
           </div>
 

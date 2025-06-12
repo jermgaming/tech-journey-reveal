@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { User, Code, Briefcase } from 'lucide-react';
+import { User, Code, Briefcase, GraduationCap } from 'lucide-react';
 
 const About = () => {
   return (
@@ -12,8 +12,8 @@ const About = () => {
               About Me
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Passionate software engineer with expertise in full-stack development, 
-              building scalable solutions and driving innovation.
+              Highly motivated, disciplined, and hardworking software engineer seeking opportunities 
+              for skill and knowledge development while contributing to organizational goals.
             </p>
           </div>
 
@@ -22,16 +22,14 @@ const About = () => {
               <div className="bg-card border border-border rounded-2xl p-6 shadow-lg">
                 <div className="flex items-center mb-4">
                   <div className="bg-primary/10 p-3 rounded-full mr-4">
-                    <User className="text-primary" size={24} />
+                    <GraduationCap className="text-primary" size={24} />
                   </div>
-                  <h3 className="text-xl font-semibold">Professional Journey</h3>
+                  <h3 className="text-xl font-semibold">Educational Background</h3>
                 </div>
-                <p className="text-muted-foreground leading-relaxed">
-                  Started my career at TCS, where I spent 2 years honing my skills in 
-                  software development and working on enterprise-level applications. 
-                  Currently contributing at Marvell Semiconductor, focusing on innovative 
-                  semiconductor solutions.
-                </p>
+                <div className="space-y-3 text-muted-foreground leading-relaxed">
+                  <p><strong>M.Tech in CSE</strong> - NIT Jaipur (2025) - 7.75 CGPA</p>
+                  <p><strong>B.Tech in Information Technology</strong> - Bhilai Institute of Technology (2021) - 8.47 CGPA</p>
+                </div>
               </div>
 
               <div className="bg-card border border-border rounded-2xl p-6 shadow-lg">
@@ -42,9 +40,9 @@ const About = () => {
                   <h3 className="text-xl font-semibold">Technical Expertise</h3>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  Proficient in modern web technologies, cloud platforms, and software 
-                  architecture. Experienced in both front-end and back-end development 
-                  with a strong focus on clean, maintainable code.
+                  Proficient in modern programming languages, frameworks, and tools. 
+                  Experienced in both firmware development and enterprise-level applications 
+                  with a strong focus on SOX compliance and critical systems.
                 </p>
               </div>
             </div>
@@ -61,25 +59,31 @@ const About = () => {
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
                   <p className="text-muted-foreground">
-                    Successfully delivered multiple enterprise-level projects at TCS
+                    Part of firmware development team at Marvell Semiconductor focusing on Automotive BU
                   </p>
                 </div>
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                   <p className="text-muted-foreground">
-                    Contributing to cutting-edge semiconductor technology at Marvell
+                    Led Global Risk and Compliance team at TCS with SOX compliance expertise
                   </p>
                 </div>
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                   <p className="text-muted-foreground">
-                    Expertise in full-stack development and modern frameworks
+                    Semi-finalist in e-Yantra Robotics competition (IIT Bombay) 2019
                   </p>
                 </div>
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                   <p className="text-muted-foreground">
-                    Strong problem-solving skills and collaborative team player
+                    Solved 300+ DSA problems on various coding platforms
+                  </p>
+                </div>
+                <div className="flex items-start">
+                  <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                  <p className="text-muted-foreground">
+                    Team Leader experience with algorithm development and PCB design
                   </p>
                 </div>
               </div>

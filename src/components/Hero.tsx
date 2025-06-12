@@ -20,12 +20,25 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 dark:from-white dark:via-blue-200 dark:to-purple-200 bg-clip-text text-transparent leading-tight">
-            Software Engineer
+          {/* Profile Image */}
+          <div className="mb-8">
+            <img 
+              src="/lovable-uploads/0d84f8c4-c33e-41a9-adb8-eff6801cb1f5.png" 
+              alt="Afinder Pal Singh"
+              className="w-48 h-48 rounded-full mx-auto border-4 border-primary/20 shadow-2xl object-cover"
+            />
+          </div>
+
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 dark:from-white dark:via-blue-200 dark:to-purple-200 bg-clip-text text-transparent leading-tight">
+            Afinder Pal Singh
           </h1>
           
+          <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-primary">
+            Software Engineer
+          </h2>
+          
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            3 Years of Experience in Full-Stack Development
+            M.Tech in CSE | 3+ Years of Experience | Software/Firmware Developer
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -33,7 +46,10 @@ const Hero = () => {
               <span className="text-sm font-medium">2 Years @ TCS</span>
             </div>
             <div className="bg-card/50 backdrop-blur-sm border border-border rounded-full px-6 py-3 shadow-lg">
-              <span className="text-sm font-medium">1 Year @ Marvell Semiconductor</span>
+              <span className="text-sm font-medium">Current @ Marvell Semiconductor</span>
+            </div>
+            <div className="bg-card/50 backdrop-blur-sm border border-border rounded-full px-6 py-3 shadow-lg">
+              <span className="text-sm font-medium">NIT Jaipur Graduate</span>
             </div>
           </div>
 

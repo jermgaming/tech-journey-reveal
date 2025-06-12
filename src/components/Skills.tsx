@@ -5,46 +5,47 @@ import { Code } from 'lucide-react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend Development",
+      title: "Programming Languages",
       skills: [
-        { name: "React", level: 90 },
-        { name: "JavaScript", level: 85 },
-        { name: "TypeScript", level: 80 },
-        { name: "HTML/CSS", level: 90 },
-        { name: "Tailwind CSS", level: 85 }
+        { name: "C", level: 90 },
+        { name: "Embedded C", level: 85 },
+        { name: "C++", level: 85 },
+        { name: "JavaScript", level: 80 },
+        { name: "TypeScript", level: 75 },
+        { name: "Bash", level: 70 }
       ],
       color: "from-blue-500 to-cyan-500"
     },
     {
-      title: "Backend Development",
+      title: "Frameworks & Tools",
       skills: [
-        { name: "Java", level: 85 },
-        { name: "Spring Boot", level: 80 },
-        { name: "Python", level: 75 },
-        { name: "Node.js", level: 70 },
-        { name: "REST APIs", level: 85 }
+        { name: "Node.js", level: 80 },
+        { name: "React", level: 85 },
+        { name: "Turborepo", level: 70 },
+        { name: "Prisma", level: 75 },
+        { name: "Monorepo", level: 70 }
       ],
       color: "from-green-500 to-emerald-500"
     },
     {
-      title: "Database & Cloud",
+      title: "Cloud & DevOps",
       skills: [
-        { name: "MySQL", level: 80 },
-        { name: "PostgreSQL", level: 75 },
-        { name: "AWS", level: 70 },
-        { name: "Docker", level: 65 },
-        { name: "Git", level: 85 }
+        { name: "Git/GitHub", level: 85 },
+        { name: "Docker", level: 75 },
+        { name: "Kubernetes", level: 70 },
+        { name: "AWS (EC2, S3)", level: 75 },
+        { name: "CI/CD", level: 70 }
       ],
       color: "from-purple-500 to-pink-500"
     },
     {
-      title: "Specialized Skills",
+      title: "Databases & Specialized",
       skills: [
-        { name: "C++", level: 75 },
-        { name: "Embedded Systems", level: 70 },
-        { name: "System Design", level: 75 },
-        { name: "Agile/Scrum", level: 80 },
-        { name: "Problem Solving", level: 90 }
+        { name: "PostgreSQL", level: 80 },
+        { name: "MongoDB", level: 75 },
+        { name: "ASPICE", level: 85 },
+        { name: "SOX Compliance", level: 90 },
+        { name: "Firmware Development", level: 85 }
       ],
       color: "from-orange-500 to-red-500"
     }
@@ -59,7 +60,7 @@ const Skills = () => {
               Technical Skills
             </h2>
             <p className="text-xl text-muted-foreground">
-              Comprehensive skill set across the full development stack
+              Comprehensive skill set from firmware development to enterprise applications
             </p>
           </div>
 

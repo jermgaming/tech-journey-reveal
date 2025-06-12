@@ -5,32 +5,32 @@ import { Code, Link as LinkIcon, ArrowRight } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Enterprise Dashboard",
-      description: "A comprehensive dashboard for enterprise resource planning with real-time data visualization and reporting capabilities.",
-      technologies: ["React", "Spring Boot", "MySQL", "AWS"],
+      title: "Automating Workflows with Webhooks",
+      description: "System that streamlines processes using webhooks to trigger automated actions. Includes sending emails, processing transactions, and notifying users when specific events occur.",
+      technologies: ["Webhooks", "Node.js", "JavaScript", "API Integration"],
       gradient: "from-blue-500 to-purple-600",
-      category: "Full-Stack Development"
+      category: "Automation"
     },
     {
-      title: "E-commerce Platform",
-      description: "Modern e-commerce solution with payment integration, inventory management, and customer analytics.",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
+      title: "PowerShell Script Automation",
+      description: "Designed automation script that can retrieve business-related data from Active Directory users and computers across various databases and servers in multiple domains.",
+      technologies: ["PowerShell", "Active Directory", "Database Integration", "Multi-domain"],
       gradient: "from-green-500 to-blue-500",
-      category: "Web Development"
+      category: "Enterprise Automation"
     },
     {
-      title: "Embedded System Monitor",
-      description: "Real-time monitoring system for embedded devices with data logging and alert mechanisms.",
-      technologies: ["C++", "Python", "Embedded C", "IoT"],
+      title: "Zerodha MCP Server",
+      description: "Lightweight protocol server that facilitates structured communication between LLM and Zerodha's order execution system. Provides buy/sell requests for specified stocks.",
+      technologies: ["Protocol Design", "API Integration", "Trading Systems", "Communication"],
       gradient: "from-purple-500 to-pink-500",
-      category: "Embedded Systems"
+      category: "Financial Technology"
     },
     {
-      title: "API Gateway Service",
-      description: "Scalable microservices architecture with API gateway for routing and load balancing.",
-      technologies: ["Java", "Spring Cloud", "Docker", "Kubernetes"],
+      title: "Collab-draw Whiteboard",
+      description: "Real-time collaborative whiteboard web app using React and HTML Canvas. Features include room creation, shape drawing, freehand doodling, undo/resize, and dynamic font/color customization.",
+      technologies: ["React", "HTML Canvas", "Real-time Collaboration", "WebSockets"],
       gradient: "from-orange-500 to-red-500",
-      category: "Backend Development"
+      category: "Web Application"
     }
   ];
 
@@ -40,10 +40,10 @@ const Projects = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
-              Featured Projects
+              Key Projects
             </h2>
             <p className="text-xl text-muted-foreground">
-              Showcasing key projects and technical achievements
+              Showcasing innovative solutions and technical achievements
             </p>
           </div>
 

@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Mail, User, Edit } from 'lucide-react';
+import { Mail, User, Edit, Phone, MapPin, Linkedin } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const Contact = () => {
@@ -48,7 +48,7 @@ const Contact = () => {
             {/* Contact Info */}
             <div className="space-y-8">
               <div className="bg-card border border-border rounded-2xl p-6 shadow-lg">
-                <h3 className="text-2xl font-bold mb-6">Let's Connect</h3>
+                <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
                 
                 <div className="space-y-4">
                   <div className="flex items-center">
@@ -57,17 +57,44 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-medium">Email</p>
-                      <p className="text-muted-foreground">contact@portfolio.dev</p>
+                      <p className="text-muted-foreground">atinder999@gmail.com</p>
                     </div>
                   </div>
                   
                   <div className="flex items-center">
                     <div className="bg-blue-500/10 p-3 rounded-full mr-4">
-                      <User className="text-blue-500" size={20} />
+                      <Phone className="text-blue-500" size={20} />
                     </div>
                     <div>
-                      <p className="font-medium">Professional Network</p>
-                      <p className="text-muted-foreground">Available on LinkedIn</p>
+                      <p className="font-medium">Phone</p>
+                      <p className="text-muted-foreground">+91-7000787208</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center">
+                    <div className="bg-green-500/10 p-3 rounded-full mr-4">
+                      <MapPin className="text-green-500" size={20} />
+                    </div>
+                    <div>
+                      <p className="font-medium">Location</p>
+                      <p className="text-muted-foreground">Bellandur, Bangalore, Karnataka</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center">
+                    <div className="bg-purple-500/10 p-3 rounded-full mr-4">
+                      <Linkedin className="text-purple-500" size={20} />
+                    </div>
+                    <div>
+                      <p className="font-medium">LinkedIn</p>
+                      <a 
+                        href="https://www.linkedin.com/in/atinder-pal-singh-8579a5160" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-primary transition-colors"
+                      >
+                        linkedin.com/in/atinder-pal-singh
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -77,7 +104,7 @@ const Contact = () => {
                 <h4 className="font-bold mb-2">Currently Open To</h4>
                 <ul className="text-muted-foreground space-y-1">
                   <li>• Full-time opportunities</li>
-                  <li>• Freelance projects</li>
+                  <li>• Software/Firmware development roles</li>
                   <li>• Technical consultations</li>
                   <li>• Collaboration opportunities</li>
                 </ul>
