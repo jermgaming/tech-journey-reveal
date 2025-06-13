@@ -17,7 +17,7 @@ jobs:
       uses: docker/setup-buildx-action@v1
 
     - name: Build Docker image
-      run: docker build -t my-app:${{ github.sha }} .
+      run: docker build -t jermgaming/portfolio:latest .
 
   
   deploy:
