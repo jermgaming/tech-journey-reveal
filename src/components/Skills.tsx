@@ -66,7 +66,7 @@ const Skills = () => {
 
           <div className="grid md:grid-cols-2 gap-8">
             {skillCategories.map((category, index) => (
-              <div key={index} className="bg-card border border-border rounded-2xl p-6 shadow-lg">
+              <div key={index} className="bg-card border border-border rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="flex items-center mb-6">
                   <div className={`bg-gradient-to-r ${category.color} p-3 rounded-full mr-4`}>
                     <Code className="text-white" size={24} />

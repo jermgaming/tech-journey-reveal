@@ -7,8 +7,8 @@ const Experience = () => {
     {
       company: "Marvell Semiconductor",
       position: "Software/Firmware Intern",
-      duration: "July 2024 - Current",
-      period: "6+ Months",
+      duration: "July 2024 - June 2025",
+      period: "11 Months",
       description: "Part of the firmware development team (PTP) under Automotive BU. Proficient in ASPICE concepts with hands-on experience at Level -2, ensuring understanding and implementation of automotive standards.",
       technologies: ["C", "Embedded C", "C++", "ASPICE", "Firmware Development", "Automotive"],
       color: "from-purple-500 to-purple-600"

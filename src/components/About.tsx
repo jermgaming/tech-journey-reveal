@@ -17,9 +17,9 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-12 items-center ">
             <div className="space-y-6">
-              <div className="bg-card border border-border rounded-2xl p-6 shadow-lg">
+              <div className="bg-card border border-border rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="flex items-center mb-4">
                   <div className="bg-primary/10 p-3 rounded-full mr-4">
                     <GraduationCap className="text-primary" size={24} />
@@ -32,7 +32,7 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="bg-card border border-border rounded-2xl p-6 shadow-lg">
+              <div className="bg-card border border-border rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="flex items-center mb-4">
                   <div className="bg-blue-500/10 p-3 rounded-full mr-4">
                     <Code className="text-blue-500" size={24} />
@@ -47,7 +47,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="bg-card border border-border rounded-2xl p-8 shadow-lg">
+            <div className="bg-card border border-border rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="flex items-center mb-6">
                 <div className="bg-purple-500/10 p-3 rounded-full mr-4">
                   <Briefcase className="text-purple-500" size={24} />
