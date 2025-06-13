@@ -35,5 +35,4 @@ jobs:
 
     - name: Push Docker image
       run: |
-        docker tag portfolio:${{ github.sha }} jermgaming/portfolio:${{ github.sha }}
-        docker push jermgaming/portfolio:${{ github.sha }}
+        docker push jermgaming/portfolio:latest
