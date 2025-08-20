@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Briefcase, Calendar } from 'lucide-react';
 
@@ -9,8 +8,8 @@ const Experience = () => {
       position: "Software/Firmware Intern",
       duration: "July 2024 - June 2025",
       period: "11 Months",
-      description: "Part of the firmware development team (PTP) under Automotive BU. Proficient in ASPICE concepts with hands-on experience at Level -2, ensuring understanding and implementation of automotive standards.",
-      technologies: ["C", "Embedded C", "C++", "ASPICE", "Firmware Development", "Automotive"],
+      description: "Developed and optimized firmware features for Marvell's automotive-grade Ethernet switches. Collaborated with hardware and software teams to implement low-level driver functionalities, ensuring compliance with automotive standards (e.g., ISO 21434, ASPICE). Debugged and resolved issues in switch firmware (e.g., packet forwarding, QoS, VLAN configurations). Enhanced performance and reliability for in-vehicle networking applications.",
+      technologies: ["Embedded C/C++", "RTOS", "Ethernet Protocols (IEEE 802.3)", "Switch ASICs", "Debugging Tools (JTAG)", "ISO 21434", "ASPICE"],
       color: "from-purple-500 to-purple-600"
     },
     {
