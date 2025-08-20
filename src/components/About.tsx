@@ -27,7 +27,7 @@ const About = () => {
                   <h3 className="text-xl font-semibold">Educational Background</h3>
                 </div>
                 <div className="space-y-3 text-muted-foreground leading-relaxed">
-                  <p><strong>M.Tech in CSE</strong> - NIT Jaipur (2025) - 7.75 CGPA</p>
+                  <p><strong>M.Tech in CSE</strong> - NIT Jaipur (2025) - 8.00 CGPA</p>
                   <p><strong>B.Tech in Information Technology</strong> - Bhilai Institute of Technology (2021) - 8.47 CGPA</p>
                 </div>
               </div>
