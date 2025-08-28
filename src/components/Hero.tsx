@@ -46,7 +46,7 @@ const Hero = () => {
               <span className="text-sm font-medium">2 Years @ TCS</span>
             </div>
             <div className="bg-card/50 backdrop-blur-sm border border-border rounded-full px-6 py-3 shadow-lg">
-              <span className="text-sm font-medium">Current @ Marvell Semiconductor</span>
+              <span className="text-sm font-medium">1 Year @ Marvell Semiconductor</span>
             </div>
             <div className="bg-card/50 backdrop-blur-sm border border-border rounded-full px-6 py-3 shadow-lg">
               <span className="text-sm font-medium">NIT Jaipur Graduate</span>

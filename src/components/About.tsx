@@ -77,7 +77,7 @@ const About = () => {
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                   <p className="text-muted-foreground">
-                    Solved 300+ DSA problems on various coding platforms
+                    Solved 500+ DSA problems on various coding platforms
                   </p>
                 </div>
                 <div className="flex items-start">
