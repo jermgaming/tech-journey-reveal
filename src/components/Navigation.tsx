@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Menu, User, Briefcase, Code, Mail } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
@@ -28,15 +27,23 @@ const Navigation = () => {
     setIsMobileMenuOpen(false);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
       isScrolled ? 'bg-background/80 backdrop-blur-md border-b border-border' : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <div className="text-2xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
+          <button
+            onClick={scrollToTop}
+            className="text-2xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity duration-200 cursor-pointer"
+          >
             Portfolio
-          </div>
+          </button>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
