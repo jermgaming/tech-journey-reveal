@@ -103,8 +103,8 @@ const Contact = () => {
               <div className="bg-gradient-to-br from-primary/10 to-blue-500/10 border border-border rounded-2xl p-6">
                 <h4 className="font-bold mb-2">Currently Open To</h4>
                 <ul className="text-muted-foreground space-y-1">
-                  <li>• Full-time opportunities</li>
                   <li>• Software/Firmware development roles</li>
+                  <li>• Full-stack opportunities</li>
                   <li>• Technical consultations</li>
                   <li>• Collaboration opportunities</li>
                 </ul>
